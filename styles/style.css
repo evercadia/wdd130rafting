@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;    
+}
+h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+div {
+    max-width: content 1600px;
+}
+div {
+    background-size: 725px;
+}
+body {
+    background-color: rgb(175, 218, 203);
+}
+header {
+    background-color: azure;
+}
+nav a:hover {
+    background-color: yellowgreen;
+}
+.book, .join {
+    background-color: chartreuse;
+}
+
+.msg {
+    background-color: rgb(28, 145, 145);
+}
+footer {
+    background-color: lightcoral;
+}
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.book, .join {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+
+}
+#background {
+    background-color: black;
+}
