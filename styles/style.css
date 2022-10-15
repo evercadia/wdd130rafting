@@ -11,7 +11,7 @@ h1 {
     text-align: center;     
 }
 h4 {
-    text-align: center; font-family: "Trade Winds";
+    text-align: center; font-family: "Trade Winds", "Rock Salt", sans-serif;
 }
 h2 {
     margin: 0;
@@ -20,7 +20,8 @@ h2 {
     text-align: center;
 }
 main section, h2 {
-    text-align: center; font-family: "Rock Salt"
+    text-align: center; 
+    font-family: "Rock Salt"
 }
 main section img {
     box-sizing: border-box;
