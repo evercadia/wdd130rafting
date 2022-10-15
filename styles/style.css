@@ -1,57 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Trade+Winds&display=swap');
+.home-title {
+    font-family: "Trade Winds, Rock Salt"; font-size: 2em;
+    margin-top: 10px;
+
+}
+img {
+    image-resolution: "hero-box" 80;
+}
 h1 {
-    text-align: center;    
+    text-align: center;     
 }
 h4 {
-    text-align: center;
+    text-align: center; font-family: "Trade Winds";
+}
+h2 {
+    margin: 0;
 }
 .button-box {
     text-align: center;
 }
-main section {
-    text-align: center;
+main section, h2 {
+    text-align: center; font-family: "Rock Salt"
+}
+main section img {
+    box-sizing: border-box;
+    border: 10px solid #d9c2a3;
 }
 div {
     max-width: content 1600px;
-}
-div {
     background-size: 725px;
+    padding: 1px;
 }
+
 body {
     background-color: rgb(175, 218, 203);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: azure;
+    margin: auto;
+    width: max-content; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif; 
+     
 }
+
 nav a:hover {
     background-color: yellowgreen;
+
 }
+nav a {
+    padding: 35px;
+}
+
 .book, .join {
     background-color: chartreuse;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px
 }
 
 .msg {
     background-color: rgb(28, 145, 145);
+    line-height:  1.5em;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px;
 }
 footer {
     background-color: lightcoral;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+
 }
 nav a {
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-.book, .join {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-footer {
-    text-align: center;
-    color: black;
-    text-decoration: none;
+
+
+footer .social img {
+    padding-top: 15px;
 }
 footer p {
     font-size: 1.2em;
@@ -60,6 +102,9 @@ footer p a:hover {
     text-decoration: underline;
 
 }
-#background {
-    background-color: black;
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
 }
