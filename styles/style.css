@@ -6,6 +6,10 @@
 }
 img {
     image-resolution: "hero-box" 80;
+    
+}
+#hero-img{
+    width: 100%;
 }
 h1 {
     text-align: center;     
