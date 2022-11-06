@@ -173,3 +173,12 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.profile_pic{
+  margin: 50px auto;
+  width: 60%;
+}
+.crystal-ball{
+  
+  width: 30%;
+  padding: 10px;
+}
