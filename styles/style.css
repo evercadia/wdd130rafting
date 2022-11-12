@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Trade+Winds&display=swap');
 .home-title {
-    font-family: "Trade Winds, Rock Salt"; font-size: 2em;
+    font-family: "Rock Salt"; font-size: 2em;
     margin-top: 10px;
 
 }
@@ -13,6 +13,7 @@ img {
     justify-self: center;
     align-self: center;
 }
+
 #hero-img{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -61,10 +62,10 @@ div {
 }
 
 body {
-    background-color: rgb(175, 218, 203);
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(30deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(150deg, #444cf7 12%, transparent 12.5%, transparent 87%, #444cf7 87.5%, #444cf7), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777), linear-gradient(60deg, #444cf777 25%, transparent 25.5%, transparent 75%, #444cf777 75%, #444cf777);
+
 }
 header {
     background-color: azure;
@@ -157,10 +158,10 @@ footer p a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img, .mountains {
-    width: 100%;
+    width: 50%;
 }
 .card-img:hover {
-    opacity: .6;
+    opacity: .5;
     transform: scale(1.1);
 }
 .mountains {
@@ -210,3 +211,34 @@ footer p a:hover {
         margin-top: 25px;
     }
 }             
+/* CSS for page 2 ################################################# */
+
+footer_2 {
+    background-color: rgb(161, 153, 34);
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+        background-color: lightcoral;
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        padding: 25px 50px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+}
+body_2{
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+background-blend-mode: multiply;
+}  
