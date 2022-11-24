@@ -30,6 +30,18 @@ img {
     border: #081e68;
     align-self: center;
 }
+#Emotion {
+    width: 50%;
+  border: 1px solid;
+  display: inline-block;
+}
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b;    
+  }
 #Home_pic {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
